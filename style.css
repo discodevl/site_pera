@@ -4,6 +4,9 @@
 
 html {
   background-color: #fff;
+  font-size: 18px;
+  line-height: 1.38;
+  color: #4a4a4a;
 }
 
 main {
@@ -11,15 +14,47 @@ main {
   margin: 0 auto;
 }
 
+strong {
+  font-weight: 600;
+}
+
+.p1 {
+  font-family: "Courier New", "Lucida Console", monospace;
+  line-height: 1.5;
+}
+
+.p2 {
+  font-family: Merriweather, Helvetica, sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.p3 {
+  font-family: Merriweather, Times, serif;
+  font-style: italic;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.header-sentence {
+  margin-top: 12px;
+}
+
 .card {
   display: flex;
   align-items: center;
   width: 100%;
   margin: 0 auto;
+  padding: 48px;
 }
 
 .circular-image {
-  max-width: 25%;
+  min-width: 10%;
+  max-width: 300px;
+}
+
+.header-txt {
+  width: 100%;
 }
 
 img {
@@ -27,12 +62,16 @@ img {
   height: 100%;
 }
 
-.header-txt {
-  width: 100%;
+.my-16 {
+  padding: 16px 0;
 }
 
 @media screen and (max-width: 700px) {
   .card {
     flex-direction: column;
+  }
+
+  .circular-image {
+    min-width: 10%;
   }
 }
