@@ -77,12 +77,32 @@ img {
   letter-spacing: 0.5px;
   line-height: 1.2;
   font-size: 2em;
-  padding: 24px;
+  padding: 32px 24px 0px 24px;
 }
 
-@media screen and (max-width: 700px) {
+.sub-card {
+  display: flex;
+  width: 50%;
+  padding: 4px;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.small-image {
+  width: 33%;
+}
+
+.art-description {
+  width: 67%;
+}
+
+@media screen and (max-width: 800px) {
   .card {
     flex-direction: column;
+  }
+
+  .sub-card {
+    width: 100%;
   }
 
   .circular-image {
