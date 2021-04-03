@@ -94,6 +94,33 @@ img {
 
 .art-description {
   width: 67%;
+  padding: 14px 8px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-family: Merriweather, Times, serif;
+  color: rgba(0, 101, 128, 1);
+  padding: 16px 0;
+}
+
+a {
+  font-size: 1.3em;
+  color: rgba(0, 101, 128, 1);
+  font-family: Merriweather, Times, serif;
+  font-weight: 100;
+}
+
+.copies {
+  padding: 16px 0;
+  color: rgba(0, 101, 128, 1);
+  font-family: Merriweather, Times, serif;
+  font-weight: 100;
+  font-size: 1em;
+}
+
+footer {
+  padding: 24px;
 }
 
 @media screen and (max-width: 800px) {
